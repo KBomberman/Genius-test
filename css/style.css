@@ -1,0 +1,57 @@
+:root {
+  --color-primari-dark: #31261a;
+  --color-primari-light: #faf4ea;
+  --color-brand-light: #819b57;
+  --color-brand-dark: #465929;
+}
+
+/* Base */
+body {
+  color: var(--color-primari-dark);
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Button */
+.button {
+  color: var(--color-primari-light);
+  background-color: var(--color-brand-light);
+  border: 2px solid var(--color-brand-light);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--color-brand-dark);
+  background-color: transparent;
+}
+
+/* Link */
+.link {
+  color: var(--color-primari-light);
+}
+
+.link:hover {
+  color: var(--color-brand-light);
+}
+
+/* Hiro section */
+.hiro-title {
+  color: var(--color-primari-light);
+}
+
+.hiro-title .accent {
+  color: var(--color-brand-light);
+}
+
+/* Adventages section */
+.adventages-list {
+  color: var(--color-primari-light);
+  background-color: var(-color-brand-light);
+}
+
+.section-title .accent {
+  color: var(--color-brand-dark);
+}
