@@ -1,2 +1,2 @@
 # Genius-test
-# Add index.html, prettierr, images
+# Add index.html, prettierr, images, test
